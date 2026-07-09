@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="alturas/src"/>
+	<classpathentry kind="src" path="course/src"/>
+	<classpathentry kind="src" path="desafio/src"/>
+	<classpathentry kind="src" path="estruturaCondicional/src"/>
+	<classpathentry kind="src" path="estruturasRepetitivas/src"/>
+	<classpathentry excluding="application/" kind="src" path="exercicioFixacao/src"/>
+	<classpathentry kind="src" path="exercicioFixacao/src/application"/>
+	<classpathentry kind="src" path="funcao/src"/>
+	<classpathentry kind="src" path="funcaoMatematicas/src"/>
+	<classpathentry kind="src" path="funcaoString/src"/>
+	<classpathentry kind="src" path="helloWorld/src"/>
+	<classpathentry kind="src" path="membrosEstaticos/src"/>
+	<classpathentry kind="src" path="negativos/src"/>
+	<classpathentry kind="src" path="operadoresBitwise/src"/>
+	<classpathentry kind="src" path="orientacaoObjetos/src"/>
+	<classpathentry kind="src" path="printVariavel/src"/>
+	<classpathentry kind="src" path="vetores/src"/>
+	<classpathentry kind="output" path="course/out/production/course"/>
+</classpath>
