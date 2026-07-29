@@ -1,6 +1,0 @@
-INDEX VERSION 1.134+/Users/lorenzovanlaresprenger/Library/Mobile Documents/com~apple~CloudDocs/Java/.metadata/.plugins/org.eclipse.jdt.core
-4164275127.index
-3767558292.index
-1865797976.index
-3491101064.index
-2897440852.index
