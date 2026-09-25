@@ -1,9 +1,25 @@
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
+
 public class Main {
     public static void main(String[] args) {
 
+        method1();
+
+        System.out.println("End of program");
+
+
+    }
+    public static void method1(){
+        System.out.println("***Method 1 start***");
+        method2();
+        System.out.println("***Method 1 end***");
+    }
+
+
+    public static void method2() {
+        System.out.println("***Method 2 start***");
         Scanner sc = new Scanner(System.in);
 
         try {
@@ -14,14 +30,15 @@ public class Main {
         }
         catch (ArrayIndexOutOfBoundsException e) {
             System.out.println("Invalid position!");
+            e.printStackTrace();
+
         }
         catch (InputMismatchException e) {
             System.out.println("Input error!");
+            e.printStackTrace();
+
         }
-
-        System.out.println("End of program");
-
         sc.close();
-
+        System.out.println("***Method 2 end***");
     }
 }
