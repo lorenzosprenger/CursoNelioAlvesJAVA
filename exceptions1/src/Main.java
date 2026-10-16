@@ -1,4 +1,5 @@
 import model.entities.Reservation;
+import model.exceptions.DomainException;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -34,8 +35,10 @@ public class Main {
 
         } catch (ParseException e) {
             System.out.println("Invalid date format. Please use dd/MM/yyyy.");
-        } catch (IllegalArgumentException e) {
+        } catch (DomainException e) {
             System.out.println("Error updating reservation: " + e.getMessage());
+        } catch (Exception e) {
+            System.out.println("An unexpected error occurred: " + e.getMessage());
         }
 
         sc.close();
