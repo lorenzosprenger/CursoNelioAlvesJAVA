@@ -1,4 +1,5 @@
 import entities.Account;
+import exceptions.BusinessException;
 
 import java.util.Locale;
 import java.util.Scanner;
@@ -26,13 +27,13 @@ public class Program {
         System.out.print("Informe uma quantia para sacar: ");
         double amount = input.nextDouble();
 
-        String error = account.validateWithdraw(amount);
-        if (error != null) {
-            System.out.println(error);
-        }
-        else {
+
+        try {
             account.withdraw(amount);
             System.out.printf("Novo saldo: %.2f%n", account.getBalance());
+        }
+        catch (BusinessException e) {
+            System.out.println(e.getMessage());
         }
 
 
