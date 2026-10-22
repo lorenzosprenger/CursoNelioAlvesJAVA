@@ -4,9 +4,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        File file = new File(
-                "/Users/lorenzovanlaresprenger/Library/Mobile Documents/com~apple~CloudDocs/CursoNelioAlvesJAVA/FileScanner/in.txt"
-        );
+        File file = new File("/Users/lorenzovanlaresprenger/Library/Mobile Documents/com~apple~CloudDocs/CursoNelioAlvesJAVA/FileScanner/in.txt");
 
         Scanner sc = null;
         try {
