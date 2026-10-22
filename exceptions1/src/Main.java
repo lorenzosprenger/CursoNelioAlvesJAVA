@@ -38,6 +38,7 @@ public class Main {
         } catch (DomainException e) {
             System.out.println("Error updating reservation: " + e.getMessage());
         } catch (Exception e) {
+        } catch (Exception e) {
             System.out.println("An unexpected error occurred: " + e.getMessage());
         }
 
